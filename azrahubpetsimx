@@ -1,5 +1,5 @@
 if game.PlaceId == 6284583030 then
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ravenyt244/azrahubscripts/main/petsimxnormal"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ravenyt244/azrahubscripts/main/petsimxnormal"))()
 elseif game.PlaceId == 10321372166 then
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ravenyt244/azrahubscripts/main/petsimxhardcore", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ravenyt244/azrahubscripts/main/petsimxhardcore"))()
 end
